@@ -12,13 +12,14 @@
  */
 
 export const lambdaHandler = async (event, context) => {
-    const response = {
-      statusCode: 200,
-      body: JSON.stringify({
-        message: "I'm using canary deployments",
-      })
-    };
+    throw new Error("This will cause a deployment rollback")
+    //const response = {
+    //  statusCode: 200,
+    //  body: JSON.stringify({
+    //    message: "I'm using canary deployments",
+    //  })
+    //};
 
-    return response;
+    //return response;
   };
   

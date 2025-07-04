@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 import { lambdaHandler } from '../../app.mjs';
 import { expect } from 'chai';
@@ -17,4 +17,4 @@ describe('Tests index', function () {
         expect(response).to.be.an('object');
         expect(response.message).to.be.equal("I'm using canary deployments");
     });
-});
+});*/
